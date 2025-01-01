@@ -11,4 +11,4 @@ captcha_solver = (
 )
 file_operations = FileOperations()
 semaphore = asyncio.Semaphore(config.threads)
-single_semaphore = asyncio.Semaphore(1)
+single_semaphore = asyncio.Semaphore(config.register_threads)
