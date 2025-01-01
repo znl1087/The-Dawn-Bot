@@ -53,6 +53,7 @@ class Config(BaseModel):
     delay_before_start: DelayBeforeStart
 
     threads: PositiveInt
+    register_threads: PositiveInt
     imap_settings: dict[str, str]
 
     keepalive_interval: PositiveInt

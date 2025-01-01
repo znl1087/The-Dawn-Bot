@@ -11,6 +11,7 @@
 
 threads: 30                    # Number of worker threads for concurrent operations
                               # Minimum: 1, Recommended: 10-50 based on system resources
+register_threads: 1
 
 keepalive_interval: 120       # Keepalive signal frequency in seconds
                              # Controls connection health monitoring
